@@ -1,0 +1,5 @@
+security:
+  ignore:
+    paths: /v1/register,/v1/*/confirm,/v1/login,/v1/forgot-password/**,
+           /v1/change-password/**,/v1/h2-console,/v1/h2-console/**,
+           /swagger-ui/**,/v3/api-docs,/v3/api-docs/swagger-config
